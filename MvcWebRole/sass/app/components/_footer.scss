@@ -1,0 +1,29 @@
+footer {
+	background: $body-bg;
+
+	.footer {
+		.columns {
+			color: $body-font-color;
+			font-size: 75%;
+
+			h4 {
+				color: $header-font-color;
+				//text-transform: uppercase;
+			}
+		}
+	}
+
+	.copyright {
+		margin-top: emCalc(15px);
+		padding: emCalc(15px) 0;
+
+		.columns {
+			color: $body-font-color;
+			font-size: 70%;
+		}
+
+        .small-attribution {
+            margin-top: emCalc(8px);
+        }
+	}
+}
